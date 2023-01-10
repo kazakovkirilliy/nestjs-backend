@@ -1,8 +1,13 @@
-### links
+# Backend part of my Bachelor thesis
+GraphQL server built with NestJs and TypeScript
 
-- [Summary of the login flow](https://www.youtube.com/watch?v=XPSSgAPjTb4&t=1534s - summary of login flow)
+Implementation process is described in the [following document](https://dspace.cvut.cz/bitstream/handle/10467/100902/F3-BP-2022-Kazakov-Kirill-potka.me_collaboration_web_platform.pdf)
 
-### Dependencies
-
-- @nestjs/jwt ~ utility package
-- passport-jwt ~ passport strategy specifically for protecting routes by means of validating jwt
+## Used Technologies
+* Programming language: TypeScript (type safety, powerful tooling, TS
+compiler).
+* Framework: NestJs (predefined Angular-like architecture, actively maintained).
+* Primary database: PostgreSQL (relational database, popularity).
+* Additional storage: Redis (performance, popularity, pub/sub, caching)
+* ORM: Prisma
+* Docker
